@@ -104,7 +104,7 @@ The transfer mechanism ensures both token ownership and encrypted metadata trans
 
 2. **Secure Transfer Initiation**
    - Trusted oracle (using TEEs) decrypts original metadata
-   - Process happens in secure environment
+   - Process happens in a secure environment
 
 3. **Re-encryption for Receiver**
    - Oracle generates new encryption key
@@ -113,7 +113,7 @@ The transfer mechanism ensures both token ownership and encrypted metadata trans
 
 4. **Key Delivery**
    - New encryption key encrypted with receiver's public key
-   - Only intended owner can access metadata key
+   - Only the intended owner can access the metadata key
 
 5. **Verification & Finalization**
    - Smart contract verifies multiple proofs:
@@ -139,8 +139,8 @@ For detailed oracle implementations (TEE vs ZKP), security considerations, and c
 ### Additional Capabilities
 
 **🧬 Clone Function**
-- Creates new token with same AI metadata
-- Preserves original while enabling distribution
+- Creates new token with the same AI metadata
+- Preserves the original while enabling distribution
 - Useful for AI agent templates
 
 **🔐 Authorized Usage**
