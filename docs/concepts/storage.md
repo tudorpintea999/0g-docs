@@ -98,7 +98,7 @@ Decentralized storage (like 0G):
 
 ### How It Works
 
-1. **Random Challenges**: System randomly asks miners to prove they have specific data
+1. **Random Challenges**: The System randomly asks miners to prove they have specific data
 2. **Cryptographic Proof**: Miners must generate a valid hash (like Bitcoin mining)
 3. **Quick Response**: Must respond fast to prove data is readily accessible
 4. **Fair Rewards**: Successful proofs earn storage fees
@@ -127,7 +127,7 @@ To promote fairness, the mining range is capped at 8 TB of data per mining opera
 
 **For large operators**: Run multiple 8TB instances.
 
-**For individuals**: Focus on single 8TB range, still profitable
+**For individuals**: Focus on a single 8TB range, still profitable
 
 <img src="/img/data-chanks.png" alt="Mining Ranges" />
 
