@@ -125,7 +125,7 @@ Before using a service provided by a provider, you must first acknowledge the pr
 await broker.inference.acknowledgeProviderSigner(providerAddress)
 ```
 
-The providerAddress can be obtained from from service metadata. For details on how to retrieve it, see [Discover Available Services](/developer-hub/building-on-0g/compute-network/sdk#discover-available-services)
+The providerAddress can be obtained from service metadata. For details on how to retrieve it, see [Discover Available Services](/developer-hub/building-on-0g/compute-network/sdk#discover-available-services)
 
 
 
