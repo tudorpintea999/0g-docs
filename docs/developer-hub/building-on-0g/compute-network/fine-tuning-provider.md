@@ -179,7 +179,7 @@ sudo -E dstack run my-gpu-cvm
 
 - Verify TDX is enabled in BIOS
 - Check GPU compatibility and drivers
-- Ensure sufficient resources allocated
+- Ensure sufficient resources are allocated
 - Review logs: `sudo dstack logs my-gpu-cvm`
 </details>
 
